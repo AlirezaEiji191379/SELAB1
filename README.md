@@ -34,6 +34,8 @@ Here we provide a step-by-step documentation of our work.
 10. Check the logs using `git log` command. It allows you to check the recent commits and their metadata.
 ![log](pics/15.png)
 
+11. An example of conflict and resolving it. In conflicts, you need to choose the case which you want to keep.
+![conflict](pics/confilt.png)
 
 ## Questions
 1. ".git" folder is a hidden directory which gets created upon initializing a new git repository. It contains any information needed for interacting with the remote repository and logging the changes that happen on the local repo. Information for tracking the commits (version control), branches, and the config are stored in this folder within different folders with different meanings.
