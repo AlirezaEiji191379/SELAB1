@@ -2,6 +2,6 @@
 {
     public interface ICalculator
     {
-        double Calculate(double x, double y);
+        double Calculate(double x, double y,Operation operation);
     }
 }
