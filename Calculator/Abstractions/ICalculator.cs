@@ -1,4 +1,6 @@
-﻿namespace Calculator.Abstractions
+﻿using Calculator.Operations;
+
+namespace Calculator.Abstractions
 {
     public interface ICalculator
     {
