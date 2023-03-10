@@ -13,6 +13,25 @@ Here we provide a step-by-step documentation of our work.
 3. Setting the protection rules for the *master* branch.
 ![setting protection rules](pics/3.png)
 
+4. Check the current branch which is master. Create a new branch named *Add-minus*. Checkout to Add-minus branch. Check the current branch which is Add-minus.
+![branching](pics/4.png)
+
+5. Add all the created files to the stage area using `git add .` command. Commit the staged files with a given commit message.
+![add files to the stage area then commit](pics/6.png)
+
+6. Push the changes to the remote repository at Add-minus branch.
+![push](pics/7.png)
+
+7. Check the recently-pushed changes in the remote repository.
+![pushed at remote](pics/8.png)
+
+8. Checkout to the master branch. Pull the changes on the remote repo. As you can see, untracked files will be downloaded to the local.
+![pull](pics/10.png)
+
+9. Try to merge the branches. Nothing new will happen as the branch is already up to date.
+![merge](pics/13.png)
+
+
 ## Questions
 1. ".git" folder is a hidden directory which gets created upon initializing a new git repository. It contains any information needed for interacting with the remote repository and logging the changes that happen on the local repo. Information for tracking the commits (version control), branches, and the config are stored in this folder within different folders with different meanings.
 To create this folder, one can use `git init` command in the git bash environment or basically in their terminal.
