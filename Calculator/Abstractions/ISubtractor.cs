@@ -2,6 +2,6 @@
 {
     public interface ISubtractor
     {
-        int Subtract(int first,int second);
+        double Subtract(int first,int second);
     }
 }

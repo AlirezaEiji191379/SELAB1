@@ -2,6 +2,6 @@
 {
     public interface IAdder
     {
-        int Add(int first,int second);
+        double Add(double first,double second);
     }
 }

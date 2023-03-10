@@ -4,7 +4,7 @@ namespace Calculator.Operations
 {
     public class Adder : IAdder
     {
-        public int Add(int first, int second)
+        public double Add(double first, double second)
         {
             return first + second;
         }

@@ -4,7 +4,7 @@ namespace Calculator.Operations
 {
     public class Subtractor : ISubtractor
     {
-        public int Subtract(int first, int second)
+        public double Subtract(double first, double second)
         {
             return first - second;
         }
