@@ -4,5 +4,8 @@
 ## Documentation
 
 ## Questions
-1. ".git" folder is a hidden directory which gets created upon initializing a new git repository. It contains any information needed for interacting with the remote repository and logging the changes that happen on the local repo. Information for tracking the commits (version control), branches, and the config are stored in this folder within different folders with different meanings
+1. ".git" folder is a hidden directory which gets created upon initializing a new git repository. It contains any information needed for interacting with the remote repository and logging the changes that happen on the local repo. Information for tracking the commits (version control), branches, and the config are stored in this folder within different folders with different meanings.
 To create this folder, one can use `git init` command in the git bash environment or basically in their terminal.
+
+2. In "atomic commits", the changes are very small and basically *indivisible*. These commits contain changes regarding a single (sub)task. It helps developers to make sure of their commits and whether the changes could be integrated with the database completely; if not they can rollback the commit. It also allows them to use seperate commits for refactoring and debugging for different tasks which makes the process much easier. To state some of the properties of an atomic commit, we can denote small incremental change, passed tests, and probably no TODOs.
+The term "atmoic pull-request" refers to the pulls which are concerenced on a specific functionality. In these request one asks for the updates on a single target, which may combine some changes that happened on a branch while ignoring some of the irrelevant changes. All the changes get mixed as a single request and come to the local repo. In the case of conflict, no updates will happen on the local unless you resolve them first. 
