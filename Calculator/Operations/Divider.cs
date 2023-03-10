@@ -6,6 +6,10 @@ namespace Calculator.Operations
     {
         public double Divide(double first, double second)
         {
+            if(second == 0)
+            {
+                throw new DivideByZeroException();
+            }
             return first / second;
         }
     }
