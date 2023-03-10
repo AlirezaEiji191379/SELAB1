@@ -2,6 +2,16 @@
 ### Shayan Talaei 98109548 - Alireza Eiji 98101193
 
 ## Documentation
+Here we provide a step-by-step documentation of our work.
+
+1. Create a github repository named **SE_Lab_1** on the website.
+![creating the repo](pics/1.png)
+
+2. Clone the repository to the local.
+![cloning the repo](pics/2.png)
+
+3. Setting the protection rules for the *master* branch.
+![setting protection rules](pics/3.png)
 
 ## Questions
 1. ".git" folder is a hidden directory which gets created upon initializing a new git repository. It contains any information needed for interacting with the remote repository and logging the changes that happen on the local repo. Information for tracking the commits (version control), branches, and the config are stored in this folder within different folders with different meanings.
