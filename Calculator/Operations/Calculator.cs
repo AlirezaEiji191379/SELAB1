@@ -1,4 +1,5 @@
 ﻿using Calculator.Abstractions;
+using Calculator.Operations.enums;
 
 namespace Calculator.Operations
 {
